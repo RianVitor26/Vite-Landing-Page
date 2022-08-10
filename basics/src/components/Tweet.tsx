@@ -1,5 +1,5 @@
 type TweetProps = {
-    text: string
+    text: String
     // text?: string => not obligatory
 }
 
