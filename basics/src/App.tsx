@@ -1,7 +1,11 @@
 import { Tweet } from './components/Tweet';
 function App() {
   return (
-    <Tweet/>
+    <>
+      <Tweet text="Tweet 1"/>
+      <Tweet text="Tweet 2"/>
+      <Tweet text="Tweet 3"/>
+    </>
   )
 }
 

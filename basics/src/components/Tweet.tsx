@@ -1,12 +1,12 @@
-export function Tweet() {
+type TweetProps = {
+    text: string
+    // text?: string => not obligatory
+}
+
+export function Tweet(props: TweetProps) {
     return (
         <>
-        <div>Hello World</div>
-        <div>Hello World</div>
-        <div>Hello World</div>
-        <div>Hello World</div>
-        <div>Hello World</div>
-        <div>Hello World</div>
+            <div>{ props.text}</div>
         </>
     )
 }
