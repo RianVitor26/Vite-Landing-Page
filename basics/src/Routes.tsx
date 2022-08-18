@@ -3,17 +3,16 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-  
-import { Catalog }  from './pages/Catalog'
-import { Cart }  from './pages/Cart'
 
+import { Home } from './pages/Home/Home'
+import { Form } from './pages/Form/Form'
 
 export function AppRoutes() {
   return (
     <Router>
       <Routes>
-        <Route path="/catalog" element={<Catalog />} />
-        <Route path="/Cart" element={<Cart />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/form" element={<Form />} />
       </Routes>
     </Router>
   )
