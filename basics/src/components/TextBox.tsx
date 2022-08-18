@@ -1,12 +1,12 @@
-type TweetProps = {
+type TextBoxProps = {
     text: String
     // text?: string => not obligatory
 }
 
-export function Tweet(props: TweetProps) {
+export function TextBox(props: TextBoxProps) {
     return (
         <>
-            <div>{ props.text}</div>
+             <p>{props.text}</p>
         </>
     )
 }
