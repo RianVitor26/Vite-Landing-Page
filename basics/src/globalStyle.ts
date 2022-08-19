@@ -12,6 +12,7 @@ export const Global = createGlobalStyle`
     --Body-background: 	#252526;
     --Navbar-background: #1e1e1e;
     --Clear-text: #D3D3D3;
+    --Contrast-color: #007acc;
 }
 
 body{
