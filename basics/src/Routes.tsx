@@ -4,15 +4,17 @@ import {
   Route
 } from "react-router-dom";
 
-import { Home } from './pages/Home/Home'
-import { Form } from './pages/Form/Form'
+import { Home } from './pages/Home/index'
+import { Registration } from './pages/Registration/index';
+import { Products } from './pages/Products/index';
 
 export function AppRoutes() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/form" element={<Form />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/products" element={<Products />} />
       </Routes>
     </Router>
   )
