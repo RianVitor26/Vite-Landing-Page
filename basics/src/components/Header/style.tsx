@@ -1,26 +1,44 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    width: 100%;
-    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    height: 70vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-image: url('../../public/Wall-E.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    align-items: center;    
 
-    h1{
-        color: var(--Contrast-color);
-        font-weight: bold;
-        font-size: clamp(18px, 4vw, 70px);
+    @media only screen and (max-width: 769px){
+        flex-direction: column-reverse;
     }
 
-    p{
-        color: var(--Clear-text);
-        font-size: clamp(14px, 2vw, 40px);
+    img{
+        width: 30%;
+        min-width: 200px;
+        filter: drop-shadow(20px 5px 15px var(--Contrast-color));
+        margin-bottom: 5vh;
     }
+`
+export const TextContainer = styled.div`
+    width: 50%;
+    height: 50%;
+    display: flex;  
+    flex-direction: column;
 
+    @media only screen and (max-width: 769px){
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+`
+export const ToolName = styled.h1`
+    color: var(--Contrast-color);
+    font-size: clamp(28px, 4vw, 100px);
+`
+export const TextInnovation = styled.h2`
+    font-size: clamp(28px, 4vw, 100px);
+`
+export const TextInvite = styled.p`
+    color: var(--CLear-text);
+    font-size: clamp(15px, 2.5vw, 80px);
 `

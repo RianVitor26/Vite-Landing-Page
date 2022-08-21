@@ -6,30 +6,32 @@ export const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: clamp(12px, 1.5vw, 45px);
+    font-size: clamp(12px, 1.6vw, 45px);
     background-color: var(--Navbar-background);
-   
-    span{
-        color: var(--Clear-text);
-        margin-left: 2vw;
-    }
 
     ul{
         display: flex;
         align-items: center;
+    }
 
-        li{
-            color: #e6e6e6;
-            list-style-type: none;
-            margin-right: 2vw;
+    li{
+        list-style-type: none;
+        margin-right: 3vw;
+    }
 
-            a{
-                text-decoration: none;
-
-                :hover{
-                    color: white;
-                }
+    a{
+        text-decoration: none;
+        margin-left: 2vw;
+        color: var(--Clear-text);
+        :hover{
+                color: var(--Contrast-color);
             }
+
+        img{
+            width: 3vw;
+            min-width: 30px;
         }
+
+            
     }
 `

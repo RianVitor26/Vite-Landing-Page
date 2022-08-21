@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { Global } from './globalStyle'
+import { GlobalStyle } from './styles/globalStyle'
 import { AppRoutes } from './Routes'
 
 function App() {
   return (
     <>
       <AppRoutes />
-      <Global />
+      <GlobalStyle />
     </>
   )
 }
