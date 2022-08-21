@@ -1,6 +1,6 @@
 import * as C from './style'
 
-export const Products = () => {
+export const WhatIs = () => {
   return (
     <div>Products</div>
   )

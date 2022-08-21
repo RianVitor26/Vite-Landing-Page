@@ -1,6 +1,6 @@
 import * as C from './style'
 import { Navbar } from '../../components/Navbar/index'
-export const Registration = () => {
+export const Create = () => {
   return (
     <C.Container>
       <Navbar />
