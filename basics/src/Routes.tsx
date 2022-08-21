@@ -13,8 +13,8 @@ export function AppRoutes() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/WhatIs" element={<WhatIs />} />
-        <Route path="/Create" element={<Create />} />
+        <Route path="/whatis" element={<WhatIs />} />
+        <Route path="/create" element={<Create />} />
       </Routes>
     </Router>
   )
