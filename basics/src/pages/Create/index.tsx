@@ -13,7 +13,7 @@ export const Create = () => {
               <p>Vite will give you the option to use the most used frameworks on the market and also with <span>TypeScript</span> or not</p>
           </C.ContainerTexts>
             <C.ContainerImage>
-              <img src="../../../public/setup.svg" alt="" />
+              <img src="setup.svg" alt="Imagem representativa de setup do undraw" />
           </C.ContainerImage>
       </C.Container>
     </>

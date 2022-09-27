@@ -12,7 +12,7 @@ export const Home = () => {
           <C.TextInvite>Get ready for a development environment that can finally catch up with you.</C.TextInvite>
         </C.TextContainer>
      
-        <img src="../../../public/logo-vite-shadow.png" alt="Logo do vite.js sombreado" />
+        <img src="logo-vite-shadow.png" alt="Logo do vite.js sombreado" />
       </C.Container>
     </>
   )

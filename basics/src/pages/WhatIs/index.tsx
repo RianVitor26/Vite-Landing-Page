@@ -8,7 +8,7 @@ export const WhatIs = () => {
       <Navbar />
       <C.Container>
           <C.ContainerImage>
-              <img src="../../../public/engine.svg" alt="" />
+              <img src="engine.svg" alt="Imagem representativa de uma engenheira do undraw" />
           </C.ContainerImage>
           <C.ContainerTexts>
               <h1>What is <span>Vite</span>?</h1>
