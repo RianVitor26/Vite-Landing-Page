@@ -29,7 +29,7 @@ export const ContainerImage = styled.div`
 export const ContainerTexts = styled.div`
     width: 80%;
     display: flex;
-    margin-top: 5vh;
+    margin-top: 10vh;
     flex-direction: column;
     align-items: center;
 
