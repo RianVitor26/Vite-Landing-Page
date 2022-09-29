@@ -14,6 +14,7 @@ export const Container = styled.div`
 `
 export const ContainerImage = styled.div`
     width: 80%;
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
